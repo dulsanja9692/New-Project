@@ -1,0 +1,112 @@
+.logo{
+    margin-left: 730px ;
+
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('back.jpg');
+    background-position: center;
+    background-size: cover;
+    color: #493b00;
+    font-size:large;
+  
+
+ 
+}
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu-bar {
+    width: 15%;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    height: 100vh;
+    position: fixed;
+}
+
+.menu-bar button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #444444;
+    color: rgb(255, 255, 255);
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.menu-bar button:hover {
+    background-color: #040404;
+}
+
+.fixed-buttons {
+    position: fixed;
+    bottom: 20px;
+    left: 10px;
+}
+
+
+.fixed-buttons button {
+    background-color: #f44336; 
+    padding: 10px 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px; 
+    transition: background-color 0.3s ease;
+}
+
+
+.fixed-buttons button:nth-child(1) {
+    background-color: #f44336; 
+}
+
+.fixed-buttons button:nth-child(1):hover {
+    background-color: #d32f2f; 
+}
+
+
+.fixed-buttons button:nth-child(2) {
+    background-color: #008CBA; 
+}
+
+.fixed-buttons button:nth-child(2):hover {
+    background-color: #006F9A; 
+}
+
+main {
+    padding: 50px;
+    padding-left: 300px;
+}
+
+.about-us {
+    text-align: center;
+}
+
+.about-us p {
+    line-height: 2;
+    margin-bottom: 20px;
+}
+
+.about-us img {
+    width: 500px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    margin-left: 250px;
+    padding: 10px;
+   margin-top: 350px;
+}

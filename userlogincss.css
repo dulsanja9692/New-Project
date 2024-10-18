@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Center the login container vertically */
+    min-height: 100vh; /* Set minimum height for full viewport */
+    background-image: url("userlogin.jpg"); /* Replace with your image path */
+    background-size: cover;
+    background-position: center; /* Center the background image */
+  }
+  
+  .login-container {
+    width: 400px; /* Set a fixed width for the login container */
+    margin: auto; /* Center the container horizontally */
+    padding: 50px; /* Add some padding for spacing */
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent dark overlay */
+    color: #fff; /* Text color for contrast */
+    border-radius: 5px; /* Add rounded corners */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Subtle box shadow */
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Add some space between form elements */
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
